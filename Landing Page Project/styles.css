@@ -1,0 +1,154 @@
+@font-face{
+    font-family: teko-medium;
+    src: url(fonts/Teko-Light.ttf);
+}
+@font-face {
+    font-family: montserrat;
+    src: url(fonts/static/Montserrat-Medium.ttf);
+}
+@font-face {
+    font-family: links;
+    src: url(fonts/static/Montserrat-Bold.ttf);
+}
+@font-face {
+    font-family: feel-free;
+    src: url(fonts/FeelfreePersonalUseRegular-lg2Bw.ttf);
+}
+#logo {
+    display: flex;
+    justify-content: flex-start;
+    font-family: teko-medium;
+    color: white;
+}
+.links {
+    display: flex;
+    font-family: teko-medium;
+    text-decoration: none;
+    font-size: 20px;
+    justify-content: space-evenly;
+    align-content: top;
+    background-color: black
+}
+a:link {
+    color:#FFDE59;
+    text-decoration: none;
+}
+a:visited {
+    color: #FFDE59
+}
+a:hover {
+    color: white;
+}
+.heading-container {
+    margin: 0 auto;
+   display: flex;
+
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-family: teko-medium;
+    font-size: 30px;
+    color: white;
+    background-color: rgb(64, 63, 63);
+    flex: 1;
+    text-align: center;
+}
+.h5 {
+    font-family: montserrat;
+    flex: 1;
+}
+.intro {
+    font-family: montserrat;
+    font-size: 15px;
+    flex: 1;
+    justify-content: center;
+    margin: 0px;
+}
+
+img {
+    height: 200px;
+    flex: 1;
+    padding-right: 10px;
+    align-items: center;
+}
+
+#lower-container {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    align-content: top;
+}
+.lower {
+    display: flex;
+    background-color: black;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    font-family: montserrat;
+    padding: 30px;
+    flex: 1;
+    margin: 0px;
+}
+.images-container {
+    display: flex;
+    background-color: black;
+    justify-content: space-evenly;
+    align-content: center;
+    padding: 30px;
+    color: #FFDE59;
+    font-family: teko-medium;
+    text-align: center;
+    font-size: 30px;
+    flex: 1;
+}
+
+.quote-section {
+    display: flex;
+    background-color: rgb(64, 63, 63);
+    justify-content: center;
+    text-align: center;
+    padding:30px;
+    font-size: 30px;
+    color: rgb(121, 120, 120);
+    font-family: feel-free;
+
+}
+#quote-section {
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#fixed-left {
+    display: flex;
+    flex: initial;
+    width: 500px
+}
+#fixed-right {
+    display: flex;
+    flex: initial;
+    width: 500px;
+}
+
+#call-to-action
+{
+    display:flex;
+    background-color: white;
+    justify-content: center;
+}
+.call {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: teko-medium;
+    font-size: 30px;
+    background-color: rgb(255, 255, 255);
+    flex: 1;
+    flex-wrap: wrap;
+    
+}
